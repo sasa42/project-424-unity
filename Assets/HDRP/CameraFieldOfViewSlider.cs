@@ -1,6 +1,10 @@
+//Temporary HDRP and Raytracing fixes
+
 //VPP´s Smooth Follow, Orbit, Look at and Free Camera Controller is broken on HDRP
 //After enable per Hotkey Main Camera´s FOV is set to 1e-05
 //This script creates a Slider that allows you to manipulate the Camera's field of view and overwites Follow, Orbit, Look at and Free Camera Controller FOV
+
+// Raytraced Shadows from Directional Light enabled is spawaning 'm_RendererData.m_LightProbeUsage != kLightProbeUsageOff' errors for all meshes. Switch off. Find out why?
 
 using UnityEngine;
 
@@ -14,6 +18,7 @@ public class CameraFieldOfViewSlider : MonoBehaviour
         //Start the Camera field of view at 60
         m_FieldOfView = 102f;
 
+        // FIX 'm_RendererData.m_LightProbeUsage != kLightProbeUsageOff' errors for all meshes when raytraces shadows are enabled
         FixkLightProbeUsageOff();
     }
 
