@@ -9,10 +9,12 @@ public class CameraFieldOfViewSlider : MonoBehaviour
     //This is the field of view that the Camera has
     float m_FieldOfView;
 
-    void Start()
+    void Awake()
     {
         //Start the Camera field of view at 60
         m_FieldOfView = 102f;
+
+        FixkLightProbeUsageOff();
     }
 
     void Update()
@@ -30,4 +32,14 @@ public class CameraFieldOfViewSlider : MonoBehaviour
         //This Slider changes the field of view of the Camera between the minimum and maximum values
         m_FieldOfView = GUI.HorizontalSlider(new Rect(20, 20, 100, 40), m_FieldOfView, min, max);
     }
+
+    public void FixkLightProbeUsageOff()
+    {
+        foreach (MeshRenderer go in Resources.FindObjectsOfTypeAll(typeof(MeshRenderer)) as MeshRenderer[])
+        {
+            if (go.lightProbeUsage == UnityEngine.Rendering.LightProbeUsage.Off) go.lightProbeUsage = UnityEngine.Rendering.LightProbeUsage.BlendProbes;
+        }
+    }
+
+
 }

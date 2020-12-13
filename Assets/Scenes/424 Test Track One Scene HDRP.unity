@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 262.38354, g: 325.1084, b: 430.30957, a: 1}
+  m_IndirectSpecularColor: {r: 262.1853, g: 324.85815, b: 429.9668, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -1510,18 +1510,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3137672285531552024, guid: 09d873e82f06a51458debc9fd17532f1,
         type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137672285531552024, guid: 09d873e82f06a51458debc9fd17532f1,
+        type: 3}
+      propertyPath: m_UseRayTracedShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137672285531552024, guid: 09d873e82f06a51458debc9fd17532f1,
+        type: 3}
+      propertyPath: m_NumRayTracingSamples
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137672285531552024, guid: 09d873e82f06a51458debc9fd17532f1,
+        type: 3}
       propertyPath: m_UseScreenSpaceShadows
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3137672285531552024, guid: 09d873e82f06a51458debc9fd17532f1,
         type: 3}
+      propertyPath: m_RayTracedContactShadow
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137672285531552024, guid: 09d873e82f06a51458debc9fd17532f1,
+        type: 3}
       propertyPath: m_ShadowResolution.m_Level
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3137672285531552024, guid: 09d873e82f06a51458debc9fd17532f1,
         type: 3}
       propertyPath: m_UseContactShadow.m_Level
-      value: 2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137672285531552024, guid: 09d873e82f06a51458debc9fd17532f1,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137672285531552024, guid: 09d873e82f06a51458debc9fd17532f1,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_UseOverride
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3137672285531552024, guid: 09d873e82f06a51458debc9fd17532f1,
         type: 3}
@@ -1602,6 +1632,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AreaSize.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137672285531552031, guid: 09d873e82f06a51458debc9fd17532f1,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09d873e82f06a51458debc9fd17532f1, type: 3}

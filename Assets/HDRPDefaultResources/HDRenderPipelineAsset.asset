@@ -160,7 +160,7 @@ MonoBehaviour:
     type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
-      data1: 140668768878413
+      data1: 140668766781261
       data2: 4539628428684361752
     lodBias: 1
     lodBiasMode: 0
@@ -211,8 +211,8 @@ MonoBehaviour:
       m_Values: 140000002800000050000000
       m_SchemaId:
         m_Id: With3Levels
-    supportVolumetrics: 1
-    supportLightLayers: 0
+    supportVolumetrics: 0
+    supportLightLayers: 1
     lightLayerName0: Light Layer default
     lightLayerName1: Light Layer 1
     lightLayerName2: Light Layer 2
@@ -228,7 +228,7 @@ MonoBehaviour:
     colorBufferFormat: 48
     supportCustomPass: 1
     customBufferFormat: 12
-    supportedLitShaderMode: 3
+    supportedLitShaderMode: 2
     planarReflectionResolution:
       m_Values: 000100000004000000040000
       m_SchemaId:
@@ -265,7 +265,7 @@ MonoBehaviour:
       reflectionCubemapSize: 512
       reflectionCacheCompressed: 0
       reflectionProbeFormat: 74
-      skyReflectionSize: 1024
+      skyReflectionSize: 256
       skyLightingOverrideLayerMask:
         serializedVersion: 2
         m_Bits: 0
@@ -278,7 +278,7 @@ MonoBehaviour:
       maxPlanarReflectionOnScreen: 16
       maxLightsPerClusterCell: 8
     hdShadowInitParams:
-      maxShadowRequests: 128
+      maxShadowRequests: 20
       directionalShadowsDepthBits: 32
       shadowFilteringQuality: 1
       punctualLightShadowAtlas:
@@ -303,7 +303,7 @@ MonoBehaviour:
         m_Values: 00010000000200000004000000080000
         m_SchemaId:
           m_Id: With4Levels
-      maxDirectionalShadowMapResolution: 2048
+      maxDirectionalShadowMapResolution: 512
       maxPunctualShadowMapResolution: 2048
       maxAreaShadowMapResolution: 2048
       supportScreenSpaceShadows: 1
@@ -355,7 +355,7 @@ MonoBehaviour:
       ChromaticAberrationMaxSamples: 03000000060000000c000000
     lightSettings:
       useContactShadow:
-        m_Values: 000001
+        m_Values: 010101
         m_SchemaId:
           m_Id: 
     maximumLODLevel:
