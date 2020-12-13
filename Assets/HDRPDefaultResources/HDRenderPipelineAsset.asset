@@ -160,7 +160,7 @@ MonoBehaviour:
     type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
-      data1: 140668766781261
+      data1: 140668768878413
       data2: 4539628428684361752
     lodBias: 1
     lodBiasMode: 0
@@ -262,10 +262,10 @@ MonoBehaviour:
       cookieTexArraySize: 1
       planarReflectionAtlasSize: 1024
       reflectionProbeCacheSize: 64
-      reflectionCubemapSize: 512
-      reflectionCacheCompressed: 0
+      reflectionCubemapSize: 256
+      reflectionCacheCompressed: 1
       reflectionProbeFormat: 74
-      skyReflectionSize: 256
+      skyReflectionSize: 512
       skyLightingOverrideLayerMask:
         serializedVersion: 2
         m_Bits: 0
