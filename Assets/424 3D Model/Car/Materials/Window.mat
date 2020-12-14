@@ -271,7 +271,7 @@ Material:
     - _RefractionModel: 0
     - _SSRefractionProjectionModel: 0
     - _Shininess: 7.9999995
-    - _Smoothness: 0.592
+    - _Smoothness: 1
     - _SmoothnessRemapMax: 0.98
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0
