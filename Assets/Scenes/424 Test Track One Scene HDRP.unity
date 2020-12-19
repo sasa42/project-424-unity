@@ -9328,7 +9328,7 @@ PrefabInstance:
     - target: {fileID: 3137672285531552024, guid: 09d873e82f06a51458debc9fd17532f1,
         type: 3}
       propertyPath: m_UseRayTracedShadows
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3137672285531552024, guid: 09d873e82f06a51458debc9fd17532f1,
         type: 3}
@@ -9863,6 +9863,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
+    distanceBasedRoughness: 0
   m_ProbeSettingsOverride:
     probe: 0
     camera:

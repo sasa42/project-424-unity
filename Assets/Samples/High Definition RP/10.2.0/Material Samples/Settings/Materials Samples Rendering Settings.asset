@@ -25,7 +25,7 @@ MonoBehaviour:
     m_Value: 0
   rayTracing:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   reflectSky:
     m_OverrideState: 1
     m_Value: 1
@@ -238,7 +238,7 @@ MonoBehaviour:
     min: 0
   farFocusEnd:
     m_OverrideState: 1
-    m_Value: 8.99
+    m_Value: 7.99
     min: 0
   m_NearSampleCount:
     m_OverrideState: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
     m_Value: 3
   rayTracing:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   intensity:
     m_OverrideState: 1
     m_Value: 0.3
@@ -877,7 +877,7 @@ MonoBehaviour:
     max: 8
   rayTracing:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   layerMask:
     m_OverrideState: 1
     m_Value:
@@ -1127,7 +1127,7 @@ MonoBehaviour:
       m_Bits: 4294967295
   maximumSamples:
     m_OverrideState: 1
-    m_Value: 256
+    m_Value: 1024
     min: 1
     max: 4096
   minimumDepth:
@@ -1137,7 +1137,7 @@ MonoBehaviour:
     max: 10
   maximumDepth:
     m_OverrideState: 1
-    m_Value: 7
+    m_Value: 10
     min: 1
     max: 10
   maximumIntensity:
@@ -1245,11 +1245,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8bcdf71d7fafa419fca1ed162f5fc9, type: 3}
   m_Name: ColorAdjustments
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   postExposure:
     m_OverrideState: 1
-    m_Value: 0.54
+    m_Value: 1
   contrast:
     m_OverrideState: 0
     m_Value: 0
