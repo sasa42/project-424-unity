@@ -156,7 +156,7 @@ MonoBehaviour:
     type: 2}
   m_LensAttenuation: 0
   m_UseRenderGraph: 1
-  m_DefaultLookDevProfile: {fileID: 11400000, guid: 254c4fe87beb7be4fa72e1681edbed02,
+  m_DefaultLookDevProfile: {fileID: 11400000, guid: 0c190b68228e98b459bb007af16764d1,
     type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
