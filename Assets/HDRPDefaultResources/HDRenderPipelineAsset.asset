@@ -156,7 +156,7 @@ MonoBehaviour:
     type: 2}
   m_LensAttenuation: 0
   m_UseRenderGraph: 1
-  m_DefaultLookDevProfile: {fileID: 11400000, guid: 0c190b68228e98b459bb007af16764d1,
+  m_DefaultLookDevProfile: {fileID: 11400000, guid: 5370de93e75ae3044aa7be9623785035,
     type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
@@ -211,7 +211,7 @@ MonoBehaviour:
       m_Values: 140000002800000050000000
       m_SchemaId:
         m_Id: With3Levels
-    supportVolumetrics: 0
+    supportVolumetrics: 1
     supportLightLayers: 1
     lightLayerName0: Light Layer default
     lightLayerName1: Light Layer 1
@@ -280,7 +280,7 @@ MonoBehaviour:
     hdShadowInitParams:
       maxShadowRequests: 20
       directionalShadowsDepthBits: 32
-      shadowFilteringQuality: 1
+      shadowFilteringQuality: 2
       punctualLightShadowAtlas:
         shadowAtlasResolution: 4096
         shadowAtlasDepthBits: 32
@@ -292,7 +292,7 @@ MonoBehaviour:
       cachedPunctualLightShadowAtlas: 2048
       cachedAreaLightShadowAtlas: 1024
       shadowResolutionDirectional:
-        m_Values: 00010000000200000004000000080000
+        m_Values: 00010000000400000008000000100000
         m_SchemaId:
           m_Id: With4Levels
       shadowResolutionPunctual:
@@ -303,7 +303,7 @@ MonoBehaviour:
         m_Values: 00010000000200000004000000080000
         m_SchemaId:
           m_Id: With4Levels
-      maxDirectionalShadowMapResolution: 512
+      maxDirectionalShadowMapResolution: 4096
       maxPunctualShadowMapResolution: 2048
       maxAreaShadowMapResolution: 2048
       supportScreenSpaceShadows: 1
@@ -327,7 +327,7 @@ MonoBehaviour:
       forceResolution: 0
       forcedPercentage: 100
     lowresTransparentSettings:
-      enabled: 1
+      enabled: 0
       checkerboardDepthBuffer: 1
       upsampleType: 1
     xrSettings:
@@ -446,9 +446,12 @@ MonoBehaviour:
   diffusionProfileSettingsList:
   - {fileID: 11400000, guid: 8c8a284819c1ff24d81a7ae68198ee33, type: 2}
   - {fileID: 11400000, guid: 2d26293f7b23e3e4c9cec2072ba588b4, type: 2}
+  - {fileID: 11400000, guid: fcd70d05840926746a3daff4f0a00e1a, type: 2}
   beforeTransparentCustomPostProcesses: []
   beforeTAACustomPostProcesses: []
-  beforePostProcessCustomPostProcesses: []
+  beforePostProcessCustomPostProcesses:
+  - Yebis.YebisPostProcess, YebisPluginHDRP.Runtime, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
   afterPostProcessCustomPostProcesses: []
   virtualTexturingSettings:
     streamingCpuCacheSizeInMegaBytes: 256

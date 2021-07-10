@@ -25,10 +25,10 @@ MonoBehaviour:
     m_Value: 1
   rayTracing:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   reflectSky:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   depthBufferThickness:
     m_OverrideState: 1
     m_Value: 0.01
@@ -344,7 +344,7 @@ MonoBehaviour:
     m_Value: 3
   rayTracing:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   intensity:
     m_OverrideState: 1
     m_Value: 0.3
@@ -882,7 +882,7 @@ MonoBehaviour:
     max: 8
   rayTracing:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   layerMask:
     m_OverrideState: 1
     m_Value:
@@ -923,7 +923,7 @@ MonoBehaviour:
     m_Value: 1
   m_HalfResolutionDenoiser:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   m_DenoiserRadius:
     m_OverrideState: 1
     m_Value: 0.093
