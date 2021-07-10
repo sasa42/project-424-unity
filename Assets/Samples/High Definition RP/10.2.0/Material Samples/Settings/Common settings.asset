@@ -144,17 +144,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b24b200358312b4fa1004e2431c2f1f, type: 3}
   m_Name: ShadowsMidtonesHighlights
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   shadows:
-    m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1, z: 1, w: 0.1071668}
   midtones:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {x: 1, y: 1, z: 1, w: 0.117584184}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_Value: {x: 1, y: 1, z: 1, w: 0.080375075}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0
@@ -217,11 +217,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaa3b8214f75b354e9ba2caadd022259, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   quality:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 3
   focusMode:
     m_OverrideState: 1
     m_Value: 2
@@ -257,12 +257,12 @@ MonoBehaviour:
     max: 8
   m_FarSampleCount:
     m_OverrideState: 1
-    m_Value: 7
+    m_Value: 9
     min: 3
     max: 16
   m_FarMaxBlur:
     m_OverrideState: 1
-    m_Value: 8
+    m_Value: 0.96
     min: 0
     max: 16
   m_HighQualityFiltering:
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 953beb541740ddc499d005ee80c9ff29, type: 3}
   m_Name: Fog
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 1
   quality:
     m_OverrideState: 1
@@ -420,7 +420,7 @@ MonoBehaviour:
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 6.47
+    m_Value: 7.8
   multiplier:
     m_OverrideState: 0
     m_Value: 1
@@ -782,23 +782,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24f077503be6ae942a1e1245dbd53ea9, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   quality:
     m_OverrideState: 1
     m_Value: 2
   threshold:
     m_OverrideState: 1
-    m_Value: 0.87
+    m_Value: 11.1
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.131
+    m_Value: 0.206
     min: 0
     max: 1
   scatter:
     m_OverrideState: 1
-    m_Value: 0.615
+    m_Value: 0.102
     min: 0
     max: 1
   tint:
@@ -812,7 +812,7 @@ MonoBehaviour:
     m_Value: {fileID: 2800000, guid: 203b35c8eaa5f684c9d722891603d7cf, type: 3}
   dirtIntensity:
     m_OverrideState: 1
-    m_Value: 21.52
+    m_Value: 1.54
     min: 0
   anamorphic:
     m_OverrideState: 0
@@ -859,6 +859,7 @@ MonoBehaviour:
   - {fileID: -3913823687224530890}
   - {fileID: -4216478470364961563}
   - {fileID: -5890313983211985376}
+  - {fileID: 4833335315952907720}
 --- !u!114 &114686666210790174
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -936,7 +937,7 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.25
+    m_Value: 0.259
     min: 0
     max: 1
   smoothness:
@@ -1066,22 +1067,22 @@ MonoBehaviour:
   m_AdvancedMode: 0
   mode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   meteringMode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0
   luminanceSource:
     m_OverrideState: 0
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 9.82
+    m_Value: 6.62
   compensation:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.11
   limitMin:
     m_OverrideState: 1
-    m_Value: 5.069733
+    m_Value: 2.807307
   limitMax:
     m_OverrideState: 1
     m_Value: 6.707887
@@ -1207,6 +1208,38 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.5
     min: 0
+--- !u!114 &4833335315952907720
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f034cba68ab55e046ae1445a42f18c0e, type: 3}
+  m_Name: IndirectLightingController
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  indirectDiffuseLightingMultiplier:
+    m_OverrideState: 1
+    m_Value: 2
+    min: 0
+  indirectDiffuseLightingLayers:
+    m_OverrideState: 0
+    m_Value: 255
+  reflectionLightingMultiplier:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  reflectionLightingLayers:
+    m_OverrideState: 0
+    m_Value: 255
+  reflectionProbeIntensityMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
 --- !u!114 &5078270113230030614
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1265,7 +1298,7 @@ MonoBehaviour:
     max: 10
   maximumIntensity:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 70.5
     min: 0
     max: 100
 --- !u!114 &5545800852808782680

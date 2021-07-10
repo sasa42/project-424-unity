@@ -235,7 +235,7 @@ Material:
     - _MaterialID: 1
     - _Metallic: 1
     - _MetallicRemapMax: 1
-    - _MetallicRemapMin: 0.50695914
+    - _MetallicRemapMin: 0.5069591
     - _Mode: 1
     - _NormalMapSpace: 0
     - _NormalScale: 1
@@ -253,8 +253,8 @@ Material:
     - _RefractionModel: 0
     - _SSRefractionProjectionModel: 0
     - _Smoothness: 0.5
-    - _SmoothnessRemapMax: 1
-    - _SmoothnessRemapMin: 0.5322419
+    - _SmoothnessRemapMax: 0.483849
+    - _SmoothnessRemapMin: 0.20067462
     - _SmoothnessTextureChannel: 0
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2

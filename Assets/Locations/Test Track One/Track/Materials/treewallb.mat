@@ -235,7 +235,7 @@ Material:
     - _MetallicRemapMin: 0
     - _Mode: 1
     - _NormalMapSpace: 0
-    - _NormalScale: 0.37
+    - _NormalScale: 0.77
     - _OcclusionStrength: 1
     - _OpaqueCullMode: 2
     - _PPDLodThreshold: 11.95
@@ -249,7 +249,7 @@ Material:
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
     - _SSRefractionProjectionModel: 0
-    - _Smoothness: 0.182
+    - _Smoothness: 0
     - _SmoothnessRemapMax: 0.2
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0
@@ -273,7 +273,7 @@ Material:
     - _SurfaceType: 0
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
-    - _Thickness: 0.035
+    - _Thickness: 0.557
     - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
@@ -294,9 +294,9 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.8207547, g: 0.7962822, b: 0.6852527, a: 1}
+    - _BaseColor: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.8207547, g: 0.7962822, b: 0.6852527, a: 1}
+    - _Color: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
     - _DiffusionProfileAsset: {r: 6.669458e-36, g: 5.261928e+31, b: -1.1107148e+32,
         a: 2.9494916e-23}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
