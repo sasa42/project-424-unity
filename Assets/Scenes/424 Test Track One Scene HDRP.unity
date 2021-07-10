@@ -703,7 +703,7 @@ PrefabInstance:
     - target: {fileID: 1769154239914717758, guid: 89f86da0002dfa549bb80908bb13bad3,
         type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 1024
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 2059525915685816065, guid: 89f86da0002dfa549bb80908bb13bad3,
         type: 3}
@@ -1026,6 +1026,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4950628298352894320, guid: 89f86da0002dfa549bb80908bb13bad3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5539448537056721968, guid: 89f86da0002dfa549bb80908bb13bad3,
         type: 3}
       propertyPath: m_Layer
@@ -1224,9 +1229,9 @@ MonoBehaviour:
   clearDepth: 1
   volumeLayerMask:
     serializedVersion: 2
-    m_Bits: 1537
+    m_Bits: 0
   volumeAnchorOverride: {fileID: 0}
-  antialiasing: 1
+  antialiasing: 0
   SMAAQuality: 2
   dithering: 0
   stopNaNs: 1
